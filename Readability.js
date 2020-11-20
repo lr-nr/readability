@@ -2033,7 +2033,7 @@ Readability.prototype = {
         return false;
       }
 
-      if (this._hasAncestorTag(node, "code", -2)) {
+      if (this._hasAncestorTag(node, "code")) {
         return false;
       }
 
